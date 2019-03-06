@@ -15,7 +15,8 @@
         "drupal/module_filter": "^3.1",
         "drupal/paragraphs": "^1.6",
         "drupal/samlauth": "^2.0@dev",
-        "drupal/sitemap": "^1.5"
+        "drupal/sitemap": "^1.5",
+        "drupal/workbench_email": "^1.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.8"

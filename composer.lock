@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11d860aa2d977eb8b81f6f6df737ca0e",
+    "content-hash": "ecae845b668702dd8ce198bcea22bfa8",
     "packages": [
         {
             "name": "acquia/acsf-tools",
@@ -8620,6 +8620,72 @@
             }
         },
         {
+            "name": "drupal/workbench_email",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/workbench_email",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/workbench_email-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "4e5544b6ba050181453c0b6f947364521b2f2c72"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/workbench_moderation": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1551091684",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fenstrat",
+                    "homepage": "https://www.drupal.org/user/362649"
+                },
+                {
+                    "name": "frosev",
+                    "homepage": "https://www.drupal.org/user/195325"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "teknic",
+                    "homepage": "https://www.drupal.org/user/367359"
+                },
+                {
+                    "name": "unobot",
+                    "homepage": "https://www.drupal.org/user/731188"
+                }
+            ],
+            "description": "Send emails to users when workbench transitions occur",
+            "homepage": "https://www.drupal.org/project/workbench_email",
+            "support": {
+                "source": "http://cgit.drupalcode.org/workbench_email"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "9.5.2",
             "source": {
@@ -14299,16 +14365,16 @@
         },
         {
             "name": "zendframework/zend-feed",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-feed.git",
-                "reference": "5248e9fffa760e5c36092aeff02c3797e4a8a690"
+                "reference": "d926c5af34b93a0121d5e2641af34ddb1533d733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-feed/zipball/5248e9fffa760e5c36092aeff02c3797e4a8a690",
-                "reference": "5248e9fffa760e5c36092aeff02c3797e4a8a690",
+                "url": "https://api.github.com/repos/zendframework/zend-feed/zipball/d926c5af34b93a0121d5e2641af34ddb1533d733",
+                "reference": "d926c5af34b93a0121d5e2641af34ddb1533d733",
                 "shasum": ""
             },
             "require": {
@@ -14339,8 +14405,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.11.x-dev",
-                    "dev-develop": "2.12.x-dev"
+                    "dev-master": "2.12.x-dev",
+                    "dev-develop": "2.13.x-dev"
                 }
             },
             "autoload": {
@@ -14358,7 +14424,7 @@
                 "feed",
                 "zf"
             ],
-            "time": "2019-01-29T21:37:15+00:00"
+            "time": "2019-03-05T20:08:49+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
